@@ -1,0 +1,4 @@
+/test_files/*.mp4
+/SimpleCNN model - 备用
+/datasets/fer2013
+/latest_checkpoint.pth.tar
