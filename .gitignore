@@ -1,4 +1,23 @@
-/test_files/*.mp4
-/SimpleCNN model - 备用
-/datasets/fer2013
-/latest_checkpoint.pth.tar
+test_files/*.mp4
+SimpleCNN model - 备用
+datasets/fer2013
+latest_checkpoint.pth.tar
+
+# Python 编译文件
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+env/
+virtualenv/
+
+# 流行框架缓存
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# 临时文件
+temp/
+/config/__pycache__

@@ -7,6 +7,7 @@ import os
 BASE_PATH = os.path.join(os.getcwd(), "datasets", "fer2013")
 INPUT_PATH = os.path.join(BASE_PATH, "fer2013.csv")
 OUTPUT_PATH = os.path.join(BASE_PATH, "output")
+TEMP_PATH = os.path.join(os.getcwd(), "temp")
 
 # 定义模型参数
 EPOCHS = 51
