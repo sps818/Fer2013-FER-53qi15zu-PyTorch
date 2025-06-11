@@ -14,9 +14,9 @@
 
 ### 1. 环境准备
 
-1.  **克隆仓库**:
+1.  **下载代码**:
     ```bash
-    git clone <仓库地址>
+    git clone https://github.com/sps818/Fer2013-FER-53qi15zu-PyTorch.git
     cd Fer2013-FER-53qi15zu-PyTorch
     ```
 
@@ -27,6 +27,8 @@
     .\venv\Scripts\activate
     # macOS/Linux
     source venv/bin/activate
+    # conda 环境
+    conda activate your_env
     ```
 
 3.  **安装依赖**:
