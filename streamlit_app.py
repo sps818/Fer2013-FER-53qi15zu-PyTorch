@@ -214,7 +214,7 @@ def process_uploaded_video(uploaded_file):
 
 
 # --- Streamlit UI ---
-st.title("人脸表情识别应用")
+st.title("53期15组    FER-情感洞察")
 st.write("上传一张图片或一个视频文件，进行人脸检测和表情识别。")
 file_type = st.radio("选择要上传的文件类型:", ("图片", "视频"))
 uploaded_file = st.file_uploader(f"上传{file_type}文件", type=[
