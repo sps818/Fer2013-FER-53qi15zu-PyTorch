@@ -1,5 +1,4 @@
 test_files/*.mp4
-SimpleCNN model - 备用
 datasets/fer2013
 latest_checkpoint.pth.tar
 
@@ -21,3 +20,5 @@ __pycache__/
 # 临时文件
 temp/
 /config/__pycache__
+/evaluation_report
+/old_models

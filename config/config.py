@@ -5,22 +5,24 @@ import os
 
 # 定义数据集路径
 BASE_PATH = os.path.join(os.getcwd(), "datasets", "fer2013")
-INPUT_PATH = os.path.join(BASE_PATH, "fer2013.csv")
+INPUT_PATH = os.path.join(BASE_PATH, "fer2013new.csv")
 OUTPUT_PATH = os.path.join(BASE_PATH, "output")
 TEMP_PATH = os.path.join(os.getcwd(), "temp")
+REPORT_PATH = os.path.join(os.getcwd(), "evaluation_report")
 
 # 定义模型参数
-EPOCHS = 51
-BATCH_SIZE = 128
+EPOCHS = 30
+BATCH_SIZE = 256
 LEARNING_RATE = 0.001
 NUM_CLASSES = 7
+PATIENCE = 10
 
 EMOTION_MAP = {
-    0: 'Anger',
-    1: 'Disgust',
-    2: 'Fear',
-    3: 'Happiness',
-    4: 'Sadness',
-    5: 'Surprise',
-    6: 'Normal'
+    0: 'neutral',
+    1: 'happiness',
+    2: 'surprise',
+    3: 'sadness',
+    4: 'anger',
+    5: 'disgust',
+    6: 'fear'
 }
